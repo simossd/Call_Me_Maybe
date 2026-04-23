@@ -11,7 +11,6 @@ class VocabManager:
         self.model = model
         self.functions = functions
 
-        # Get path to vocab.json relative to project root
         project_root = Path(__file__).parent.parent
         v_path = project_root / "vocab.json"
         print(v_path)
